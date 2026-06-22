@@ -40,7 +40,7 @@ sealed class AppTheme {
 
     return ThemeData(
       useMaterial3: true,
-      fontFamily: 'Manrope',
+      fontFamily: 'Cairo',
       colorScheme: config.scheme,
       brightness: config.brightness,
       appBarTheme: AppBarTheme(
