@@ -13,9 +13,9 @@ class AppIcons {
 class _Branding {
   const _Branding();
 
-  final String logo = "assets/icons/branding/logo.svg";
-  final String company = "assets/icons/branding/company_logo.svg";
-  final String placeholder = "assets/icons/branding/placeholder.svg";
+  final String logo = "assets/icons/branding/logo.png";
+  final String company = "assets/icons/branding/company_logo.jpeg";
+  final String placeholder = "assets/icons/branding/placeholder.jpeg";
 }
 
 class _Illustrators {

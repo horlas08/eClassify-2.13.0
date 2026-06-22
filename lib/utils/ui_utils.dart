@@ -269,10 +269,11 @@ class UiUtils {
       child: SizedBox(
         width: width,
         height: height,
-        child: getSvg(
+        child: Image.asset(
           AppIcons.branding.placeholder,
           width: width ?? 70,
           height: height ?? 70,
+          fit: BoxFit.contain,
         ),
       ),
     );

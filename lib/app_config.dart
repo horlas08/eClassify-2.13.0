@@ -36,7 +36,7 @@ class AppConfig {
   static const String defaultPhoneCode = '249';
 
   /// Show the company logo at the bottom of splash screen
-  /// To change the logo, replace assets/icons/branding/company_logo.svg
+  /// To change the logo, replace assets/icons/branding/company_logo.jpeg
   /// SVG format is recommended here.
   /// To use any other formats, provide full asset URL in splash_screen.dart
   static const bool showCompanyLogo = true;

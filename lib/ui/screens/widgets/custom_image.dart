@@ -49,26 +49,32 @@ class _CustomImageState extends State<CustomImage> {
 
   Size? get res => widget.resolution ?? widget.size;
 
+  Widget _buildBrandingImage(String assetPath) {
+    if (assetPath.endsWith('.svg')) {
+      return SvgPicture.asset(
+        assetPath,
+        height: height,
+        width: width,
+        fit: widget.fit,
+      );
+    }
+
+    return Image.asset(
+      assetPath,
+      height: height,
+      width: width,
+      fit: widget.fit,
+    );
+  }
+
   @override
   void initState() {
     super.initState();
     _resolveImageProvider(widget.src);
     placeHolderImage =
-        widget.placeholder ??
-        SvgPicture.asset(
-          AppIcons.branding.placeholder,
-          height: height,
-          width: width,
-          fit: widget.fit,
-        );
+        widget.placeholder ?? _buildBrandingImage(AppIcons.branding.placeholder);
     errorImage =
-        widget.errorImage ??
-        SvgPicture.asset(
-          AppIcons.branding.placeholder,
-          height: height,
-          width: width,
-          fit: widget.fit,
-        );
+        widget.errorImage ?? _buildBrandingImage(AppIcons.branding.placeholder);
   }
 
   @override
@@ -81,20 +87,9 @@ class _CustomImageState extends State<CustomImage> {
         oldWidget.placeholder != widget.placeholder) {
       placeHolderImage =
           widget.placeholder ??
-          SvgPicture.asset(
-            AppIcons.branding.placeholder,
-            height: height,
-            width: width,
-            fit: widget.fit,
-          );
+          _buildBrandingImage(AppIcons.branding.placeholder);
       errorImage =
-          widget.errorImage ??
-          SvgPicture.asset(
-            AppIcons.branding.placeholder,
-            height: height,
-            width: width,
-            fit: widget.fit,
-          );
+          widget.errorImage ?? _buildBrandingImage(AppIcons.branding.placeholder);
     }
   }
 

@@ -220,7 +220,7 @@ class SplashScreenState extends State<SplashScreen> {
                   children: [
                     /// You can use any image format here
                     /// For formats other than .svg, provide the full
-                    /// assets path.
+                    /// assets path (e.g. logo.png, company_logo.jpeg).
                     CustomImage(
                       src: AppIcons.branding.logo,
                       size: Size.square(150),
