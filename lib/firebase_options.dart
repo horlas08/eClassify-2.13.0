@@ -50,22 +50,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    storageBucket: '',
+    apiKey: 'AIzaSyC7A7SGWAMohk6KaABV9ty4FXt7acVW0E0',
+    appId: '1:1084609560881:android:5845161315ff7cccbff010',
+    messagingSenderId: '1084609560881',
+    projectId: 'muqrnapp',
+    storageBucket: 'muqrnapp.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    storageBucket: '',
-    androidClientId: '',
-    iosClientId: '',
-    iosBundleId: '',
+    apiKey: 'AIzaSyBDLigBE0WnQhon_ZEtIGPZ1jNUP4Lkou0',
+    appId: '1:1084609560881:ios:3e2e870cac8ebe03bff010',
+    messagingSenderId: '1084609560881',
+    projectId: 'muqrnapp',
+    storageBucket: 'muqrnapp.firebasestorage.app',
+    androidClientId: '1084609560881-llhfnbsfj734bc02rv734uo71g5t8hgi.apps.googleusercontent.com',
+    iosClientId: '1084609560881-v7gp06co8vrlf5eoh2ivoi4osm80duk0.apps.googleusercontent.com',
+    iosBundleId: 'com.app.muqrn',
   );
 
 }
