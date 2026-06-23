@@ -9,7 +9,7 @@ sealed class AppTheme {
     secondary: ThemeColors.cardBackgroundColor,
     onSecondary: ThemeColors.lightTextColor,
     surface: ThemeColors.lightBackgroundColor,
-    onSurface: ThemeColors.onPrimaryColor,
+    onSurface: ThemeColors.lightTextColor,
     tertiary: ThemeColors.accentColor,
     onTertiary: ThemeColors.onAccentColor,
     brightness: Brightness.light,

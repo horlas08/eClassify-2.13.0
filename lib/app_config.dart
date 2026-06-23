@@ -3,7 +3,7 @@ import 'package:eClassify/data/model/location/leaf_location.dart';
 
 class AppConfig {
   /// Used in SplashScreen to display application name under splash logo
-  static const String applicationName = 'muqrns';
+  static const String applicationName = 'muqrn';
 
   /// DO NOT ADD "/" AT THE END OF DOMAINS ///
   /// Admin Panel URL
