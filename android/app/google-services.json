@@ -1,48 +1,84 @@
 {
   "project_info": {
-    "project_number": "1084609560881",
-    "project_id": "muqrnapp",
-    "storage_bucket": "muqrnapp.firebasestorage.app"
+    "project_number": "871974768046",
+    "project_id": "bazinjanapp",
+    "storage_bucket": "bazinjanapp.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1084609560881:android:5845161315ff7cccbff010",
+        "mobilesdk_app_id": "1:871974768046:android:47a2a6d27491cd24be4c3f",
         "android_client_info": {
-          "package_name": "com.app.muqrn"
+          "package_name": "com.app.bazinjan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1084609560881-llhfnbsfj734bc02rv734uo71g5t8hgi.apps.googleusercontent.com",
+          "client_id": "871974768046-kbbuff04705b3ir4ctfd02k3vnltdkgo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.app.muqrn",
+            "package_name": "com.app.bazinjan",
             "certificate_hash": "96f07d87fce330c9aed0648efbb50417f2d79f12"
           }
         },
         {
-          "client_id": "1084609560881-0fm77nqv2q3v8gg3fu4ic68fjg12etl3.apps.googleusercontent.com",
+          "client_id": "871974768046-s4fukq0qv1nuog81chk4o31ac4lnsm61.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC7A7SGWAMohk6KaABV9ty4FXt7acVW0E0"
+          "current_key": "AIzaSyBKmOIhqfNNc7-KEqWCBzhGFL0ZdjarFLs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1084609560881-0fm77nqv2q3v8gg3fu4ic68fjg12etl3.apps.googleusercontent.com",
+              "client_id": "871974768046-s4fukq0qv1nuog81chk4o31ac4lnsm61.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1084609560881-v7gp06co8vrlf5eoh2ivoi4osm80duk0.apps.googleusercontent.com",
+              "client_id": "871974768046-ggdp8r9igfceg0srop7s47l678r2d3p0.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.app.muqrn"
+                "bundle_id": "com.app.bazinjan"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871974768046:android:f16d913ffc5b951dbe4c3f",
+        "android_client_info": {
+          "package_name": "com.app.muqrn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871974768046-s4fukq0qv1nuog81chk4o31ac4lnsm61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKmOIhqfNNc7-KEqWCBzhGFL0ZdjarFLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871974768046-s4fukq0qv1nuog81chk4o31ac4lnsm61.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "871974768046-ggdp8r9igfceg0srop7s47l678r2d3p0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.bazinjan"
               }
             }
           ]

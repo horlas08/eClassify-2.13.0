@@ -50,21 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC7A7SGWAMohk6KaABV9ty4FXt7acVW0E0',
-    appId: '1:1084609560881:android:5845161315ff7cccbff010',
-    messagingSenderId: '1084609560881',
-    projectId: 'muqrnapp',
-    storageBucket: 'muqrnapp.firebasestorage.app',
+    apiKey: 'AIzaSyBKmOIhqfNNc7-KEqWCBzhGFL0ZdjarFLs',
+    appId: '1:871974768046:android:f16d913ffc5b951dbe4c3f',
+    messagingSenderId: '871974768046',
+    projectId: 'bazinjanapp',
+    storageBucket: 'bazinjanapp.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBDLigBE0WnQhon_ZEtIGPZ1jNUP4Lkou0',
-    appId: '1:1084609560881:ios:3e2e870cac8ebe03bff010',
-    messagingSenderId: '1084609560881',
-    projectId: 'muqrnapp',
-    storageBucket: 'muqrnapp.firebasestorage.app',
-    androidClientId: '1084609560881-llhfnbsfj734bc02rv734uo71g5t8hgi.apps.googleusercontent.com',
-    iosClientId: '1084609560881-v7gp06co8vrlf5eoh2ivoi4osm80duk0.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDhvo3abZAeW9ecqnWSVwFfr4ICGStU-c4',
+    appId: '1:871974768046:ios:e12c0926115b93c2be4c3f',
+    messagingSenderId: '871974768046',
+    projectId: 'bazinjanapp',
+    storageBucket: 'bazinjanapp.firebasestorage.app',
+    androidClientId: '871974768046-kbbuff04705b3ir4ctfd02k3vnltdkgo.apps.googleusercontent.com',
+    iosClientId: '871974768046-vccnf1hg8ao5mc8h1ebb96qv2vgmu9m9.apps.googleusercontent.com',
     iosBundleId: 'com.app.muqrn',
   );
 
