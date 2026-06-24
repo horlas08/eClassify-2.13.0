@@ -3,14 +3,14 @@ import 'package:eClassify/data/model/location/leaf_location.dart';
 
 class AppConfig {
   /// Used in SplashScreen to display application name under splash logo
-  static const String applicationName = 'muqrn';
+  static const String applicationName = 'bazinjan';
 
   /// DO NOT ADD "/" AT THE END OF DOMAINS ///
   /// Admin Panel URL
-  static const String hostUrl = 'https://admin.muqrn.com';
+  static const String hostUrl = 'https://admin.bazinjan.com';
 
   /// Website URL to generate share links
-  static const String shareDomain = "https://admin.muqrn.com";
+  static const String shareDomain = "https://admin.bazinjan.com";
 
   /// Default location to be used when App is unable to fetch current location
   static final LeafLocation defaultLocation = LeafLocation(
