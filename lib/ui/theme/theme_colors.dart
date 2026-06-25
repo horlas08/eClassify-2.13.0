@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ThemeColors {
   // Light Mode Colors
-  static const primaryColor = Color(0xff6d327b);
+  static const primaryColor = Color(0xff2b1949);
   static const onPrimaryColor = Color(0xffFFFFFF);
   static const lightBackgroundColor = Color(0xffF6F5FA);
   static const lightTextColor = Color(0xff000000);
@@ -11,7 +11,7 @@ class ThemeColors {
   static const cardBackgroundColor = Color(0xffFFFFFF);
 
   // Dark Mode Colors
-  static const darkPrimaryColor = Color(0xff6d327b);
+  static const darkPrimaryColor = Color(0xff2b1949);
   static const onDarkPrimaryColor = Color(0xffFFFFFF);
   static const darkBackgroundColor = Color(0xff121212);
   static const darkTextColor = Color(0xffFDFDFD);
