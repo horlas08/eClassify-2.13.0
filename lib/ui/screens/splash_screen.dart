@@ -11,7 +11,6 @@ import 'package:eClassify/data/cubits/system/system_settings_cubit.dart';
 import 'package:eClassify/ui/screens/widgets/custom_image.dart';
 import 'package:eClassify/ui/screens/widgets/errors/no_internet.dart';
 import 'package:eClassify/ui/theme/theme_colors.dart';
-import 'package:eClassify/ui/theme/theme_extensions.dart';
 import 'package:eClassify/utils/app_icon.dart';
 import 'package:eClassify/utils/constant.dart';
 import 'package:eClassify/utils/helper_utils.dart';
@@ -225,14 +224,6 @@ class SplashScreenState extends State<SplashScreen> {
                       src: AppIcons.branding.logo,
                       size: Size.square(150),
                       fit: BoxFit.contain,
-                    ),
-                    Text(
-                      AppConfig.applicationName,
-                      style: context.headlineLarge.copyWith(
-                        color: context.colorScheme.onPrimary,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      textAlign: TextAlign.center,
                     ),
                   ],
                 ),
