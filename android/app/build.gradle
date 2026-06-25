@@ -68,7 +68,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.app.muqrn"
+        applicationId "com.app.bazinjan"
         minSdkVersion 24
         targetSdkVersion 36
         multiDexEnabled true
