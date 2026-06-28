@@ -14,14 +14,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "871974768046-kbbuff04705b3ir4ctfd02k3vnltdkgo.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.app.bazinjan",
-            "certificate_hash": "96f07d87fce330c9aed0648efbb50417f2d79f12"
-          }
-        },
-        {
           "client_id": "871974768046-s4fukq0qv1nuog81chk4o31ac4lnsm61.apps.googleusercontent.com",
           "client_type": 3
         }
