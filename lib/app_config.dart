@@ -3,7 +3,17 @@ import 'package:eClassify/data/model/location/leaf_location.dart';
 
 class AppConfig {
   /// Used in SplashScreen to display application name under splash logo
-  static const String applicationName = 'bazinjan';
+  static const String applicationName = 'Bazinjan';
+
+  /// Default SEO meta tags for the platform
+  static const String metaTitle =
+      'Bazinjan Platform | Your Ultimate Guide to Buying and Selling Anything in Sudan';
+
+  static const String metaDescription =
+      'Your ultimate guide to buying and selling in Sudan. Post your ad for free or browse thousands of listings on Bazinjan Marketplace today.';
+
+  static const String metaKeywords =
+      'Bazinjan Sudan, Sudan open market, Sudan classifieds, Sudan marketplace, buy and sell Sudan, free ads Sudan, Khartoum open market, Sudan online shopping, cars for sale Sudan, used cars Khartoum, Sudan auto market, real estate Sudan, apartments for rent Khartoum, houses for sale Sudan, lands for sale Khartoum, mobile phones Sudan, used phones Khartoum, laptops Sudan, iPhone prices Sudan, jobs in Sudan, Sudan services, furniture Sudan, Bazinjan marketplace, Sudan free classifieds, online market Sudan, buy cars Sudan, Khartoum property, Sudan electronics, advertising Sudan.';
 
   /// DO NOT ADD "/" AT THE END OF DOMAINS ///
   /// Admin Panel URL
